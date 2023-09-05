@@ -28,9 +28,27 @@ const Header = () => {
     const headerRef = useRef(null)
     const menuRef = useRef(null)
     const handleStickyHeader = () => {
-        if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-            headerRef.current.classList.add("sticky-header")
-        }
+        window.addEventListener('scroll', () => {
+            if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                headerRef.current.classList.add("sticky-header")
+            }
+            else {
+                headerRef.current.classList.remove("sticky-header")
+            }
+        }); 
+    }
+
+    useEffect( () => {
+        handleStickyHeader();
+
+        return () => window.removeEventListener("scroll", handleStickyHeader);
+    
+    } );
+
+
+    const toggleMenu = () => { 
+        menuRef.current.classList.toggle("show__menu")
+    
     }
 
     return <header className="header flex items-center"> 
@@ -42,7 +60,7 @@ const Header = () => {
                 </div>
 
                 {/* ========== menu  ========== */}
-                <div className="navigation">
+                <div className="navigation" ref={menuRef} onClick={toggleMenu}>
                     <ul className="menu flex items-center gap-[2.7rem]">
                         {
                             navlinks.map( (link,index) => (
@@ -83,7 +101,7 @@ const Header = () => {
                                             justify-center 
                                             rounded-[50px]"> Login </button>
                     </Link>
-                    <span className="md:hidden">
+                    <span className="md:hidden" onClick={toggleMenu}>
                         <BiMenu className="w-5 h-6 cursor-pointer" />
                     </span>
                 </div>
