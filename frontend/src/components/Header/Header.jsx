@@ -27,13 +27,14 @@ const Header = () => {
 
     const headerRef = useRef(null)
     const menuRef = useRef(null)
+
     const handleStickyHeader = () => {
         window.addEventListener('scroll', () => {
             if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                headerRef.current.classList.add("sticky-header")
+                headerRef.current.classList.add("sticky__header")
             }
             else {
-                headerRef.current.classList.remove("sticky-header")
+                headerRef.current.classList.remove("sticky__header")
             }
         }); 
     }
@@ -51,7 +52,7 @@ const Header = () => {
     
     }
 
-    return <header className="header flex items-center"> 
+    return <header className="header flex items-center" ref={ headerRef }> 
         <div className="container"> 
             <div className="flex items-center justify-between">
                 {/* ========== logo ========== */}
