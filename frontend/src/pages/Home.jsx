@@ -15,6 +15,7 @@ import { BsArrowRight } from "react-icons/bs"
 import ServiceList from "../components/Services/Services";
 import DoctorList from "../components/Doctors/DoctorList";
 import FaqList from "../components/faq/FaqList";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -258,13 +259,13 @@ const Home = () => {
         <section>
             <div className="container">
                 <div className="xl:w-[470px] mx-auto">
-                    <h2 className="heading text-center">Our Great  doctors</h2>
+                    <h2 className="heading text-center">Our Great doctors</h2>
                     <p className="text__para text-center">
                         World-class care for everyone. Our health System offer unmatched
                         expert health care.
-                    </p> 
+                    </p>
                 </div>
-                <DoctorList/>
+                <DoctorList />
             </div>
         </section>
 
@@ -283,12 +284,31 @@ const Home = () => {
                         <h2 className="heading">
                             Most questions by our beloved patients
                         </h2>
-                        <FaqList/>
+                        <FaqList />
                     </div>
                 </div>
             </div>
         </section>
         { /* ======= faq section end ======= */}
+
+        { /* ======= Testimonial ======= */}
+
+        <section>
+            <div className="container">
+                <div className="xl:w-[470px] mx-auto">
+                    <h2 className="heading text-center">What our patients say</h2>
+                    <p className="text__para text-center">
+                        World-class care for everyone. Our health System offer unmatched
+                        expert health care.
+                    </p>
+                </div>
+                <Testimonial/>
+            </div>
+        </section>
+
+        { /* ======= Testimonial end ======= */}
+
+
 
 
     </>
