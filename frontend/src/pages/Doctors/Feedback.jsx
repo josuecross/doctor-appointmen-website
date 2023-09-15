@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import avatar from "../../assets/images/avatar-icon.png";
 import { formateDate } from "../../utils/formateData";
 import { AiFillStar } from "react-icons/ai";
+import FeedbackForm from "./FeedbackForm";
 
 const Feedback = () => {
 
@@ -43,9 +44,17 @@ const Feedback = () => {
                 </div>
             </div>
 
-            <div className="text-center">
-                <button className="btn">Give Feedback</button>
+            {
+            !showFeedbackForm && <div className="text-center">
+                <button className="btn" onClick={() => setFeedbackForm(true)}>Give Feedback</button>
             </div>
+            }
+
+            {
+            showFeedbackForm && <FeedbackForm />
+            }
+
+
         </div>
     </>
 }
