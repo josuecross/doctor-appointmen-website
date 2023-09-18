@@ -7,11 +7,11 @@ In a world where technology is reshaping every aspect of our lives, it's time fo
 
 Contains a Home page, Services page, Doctor List page, Doctor details page, Contact page, Thankyou page, Sign in and Signup page, My account page, Role-based Authentication & Authorization, Review system, Booking system, Payment system, Photo upload system (Complete backend API).
 
-## Home page
+## Home
 
 ![ezgif com-video-to-gif (6)](https://github.com/josuecross/website-with-node-Express/assets/85675115/8fe73d4b-e893-4b43-b42e-744a3f67b522)
 
-## Find a doctor page
+## Find a doctor
 
 ![ezgif com-video-to-gif (7)](https://github.com/josuecross/website-with-node-Express/assets/85675115/ab8a5b61-d37c-45ff-8a42-c4d48f641a9d)
 
