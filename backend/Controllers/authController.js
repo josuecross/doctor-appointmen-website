@@ -12,7 +12,6 @@ export const register = async (req,res) => {
 
     const {email, password, name, role, photo, gender} = req.body;
     try {
-        console.log("callong register");
 
         let user = null;
 
