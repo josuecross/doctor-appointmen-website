@@ -9,7 +9,12 @@ Contains a Home page, Services page, Doctor List page, Doctor details page, Cont
 
 ## Home page
 
-[scrnli_18_9_2023_17-11-58.webm](https://github.com/josuecross/website-with-node-Express/assets/85675115/35745273-bb89-4dc6-af87-9754c9bdb37f)
+![ezgif com-video-to-gif (6)](https://github.com/josuecross/website-with-node-Express/assets/85675115/8fe73d4b-e893-4b43-b42e-744a3f67b522)
 
-## Services page
+## Find a doctor page
 
+![ezgif com-video-to-gif (7)](https://github.com/josuecross/website-with-node-Express/assets/85675115/ab8a5b61-d37c-45ff-8a42-c4d48f641a9d)
+
+## Login and Register
+
+![ezgif com-video-to-gif (8)](https://github.com/josuecross/website-with-node-Express/assets/85675115/dd57586e-dd32-41d7-adb7-0408bbd92f66)
