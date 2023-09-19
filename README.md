@@ -11,9 +11,22 @@ Contains a Home page, Services page, Doctor List page, Doctor details page, Cont
 
 ![ezgif com-video-to-gif (6)](https://github.com/josuecross/website-with-node-Express/assets/85675115/8fe73d4b-e893-4b43-b42e-744a3f67b522)
 
+
+
+
+
+
+
+
 ## Find a doctor
 
 ![ezgif com-video-to-gif (7)](https://github.com/josuecross/website-with-node-Express/assets/85675115/ab8a5b61-d37c-45ff-8a42-c4d48f641a9d)
+
+
+
+
+
+
 
 ## Login and Register
 
