@@ -6,13 +6,3 @@ Doctor Appointment Booking Website Design Using ReactJs, Node Js, MongoDB, JWT.
 In a world where technology is reshaping every aspect of our lives, it's time for healthcare to catch up. Introducing Medicare, a cutting-edge doctor appointment website that seamlessly connects patients with the best medical professionals, making healthcare accessible, convenient, and personalized like never before. 
 
 Contains a Home page, Services page, Doctor List page, Doctor details page, Contact page, Thankyou page, Sign in and Signup page, My account page, Role-based Authentication & Authorization, Review system, Booking system, Payment system, Photo upload system (Complete backend API).
-
-
-## Find a doctor
-
-![ezgif com-video-to-gif (7)](https://github.com/josuecross/website-with-node-Express/assets/85675115/ab8a5b61-d37c-45ff-8a42-c4d48f641a9d)
-
-
-## Login and Register
-
-![ezgif com-video-to-gif (8)](https://github.com/josuecross/website-with-node-Express/assets/85675115/dd57586e-dd32-41d7-adb7-0408bbd92f66)
