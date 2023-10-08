@@ -41,5 +41,12 @@ const DoctorSchema = new mongoose.Schema({
   appointments: [{ type: mongoose.Types.ObjectId, ref: "Appointment" }],
 });
 
+DoctorSchema.pre(/^find/, function(next){
+  this.populate({
+    path: "reviews",
+    select: "user"
+  });
+  next();
+});
 
 export default mongoose.model("Doctor", DoctorSchema);

@@ -34,7 +34,7 @@ export const getSingleDoctor = async (req, res) => {
     try {
         const doctor = await Doctor.findById(id).select("-password");
 
-        doctor.pupulate('reviews')
+
 
         res.status(200).json({ success: true, message: "Doctor found", data: doctor });
 
