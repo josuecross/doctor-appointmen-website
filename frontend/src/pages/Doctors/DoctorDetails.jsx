@@ -1,6 +1,6 @@
 import React from "react";
 import doctorimg from "./../../assets/images/doctor-img02.png";
-import staricon from "../../assets/images/Star.png";
+import staricon from "./../../assets/images/Star.png";
 import {useState} from "react";
 import DoctorAbout from "./DoctorAbout";
 import Feedback from "./Feedback";
