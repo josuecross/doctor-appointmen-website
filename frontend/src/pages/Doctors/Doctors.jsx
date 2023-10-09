@@ -15,7 +15,7 @@ const Doctors = () => {
                 justify-between ">
                     <input
                         type="search"
-                        className="py-4 pl-4 pr-2 bg-transparent w-full focus:outline-none cursor-pointer
+                        className="py-4 pl-4 pr-2 w-full focus:outline-none cursor-pointer
                         placeholder:text-textColor "
                         placeholder="Searh Doctor" />
                     <button className="btn mt-0 rounded-[0px] rounded-r-md">
