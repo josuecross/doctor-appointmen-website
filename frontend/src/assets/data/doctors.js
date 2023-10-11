@@ -5,7 +5,7 @@ import doctorImg03 from "../images/doctor-img03.png";
 export const doctors = [
   {
     id: "01",
-    name: "Dr. Steaven Colins",
+    name: "Dr. Steaven Collins",
     specialization: "Surgeon",
     avgRating: 4.8,
     totalRating: 272,
@@ -15,7 +15,7 @@ export const doctors = [
   },
   {
     id: "02",
-    name: "Dr. Saleh Mahmud",
+    name: "Dr. Joshua White",
     specialization: "Neurologist",
     avgRating: 4.8,
     totalRating: 272,
@@ -25,7 +25,7 @@ export const doctors = [
   },
   {
     id: "03",
-    name: "Dr. Dominick Uddin",
+    name: "Dr. Dominick Fernandez",
     specialization: "Dermatologist",
     avgRating: 4.8,
     totalRating: 272,
